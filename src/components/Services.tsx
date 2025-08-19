@@ -94,7 +94,12 @@ const Services = () => {
               </div>
             </div>
             
-            <Button variant="accent" size="lg" className="text-lg px-8 py-4">
+            <Button 
+              variant="accent" 
+              size="lg" 
+              className="text-lg px-8 py-4"
+              onClick={() => window.open('https://calendly.com/maxdavies236/30min', '_blank')}
+            >
               Get Started Today
             </Button>
           </div>

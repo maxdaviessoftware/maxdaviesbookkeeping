@@ -1,31 +1,11 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, Video, MapPin, Phone } from "lucide-react";
+import { Calendar, Clock, Video } from "lucide-react";
 
 const CalendarBooking = () => {
-  const meetingTypes = [
-    {
-      icon: Video,
-      title: "Virtual Consultation",
-      duration: "30 minutes",
-      description: "Perfect for initial discussions and software demos",
-      features: ["Software walkthrough", "Service overview", "Custom quote"]
-    },
-    {
-      icon: MapPin,
-      title: "In-Person Meeting",
-      duration: "45 minutes",
-      description: "Face-to-face consultation at our office or your location",
-      features: ["Document review", "Detailed planning", "Hands-on training"]
-    },
-    {
-      icon: Phone,
-      title: "Phone Consultation",
-      duration: "20 minutes",
-      description: "Quick discussion about your bookkeeping needs",
-      features: ["Quick assessment", "Service matching", "Pricing discussion"]
-    }
-  ];
+  const handleBookConsultation = () => {
+    window.open('https://calendly.com/maxdavies236/30min', '_blank');
+  };
 
   return (
     <section id="contact" className="py-20 bg-background">
@@ -35,40 +15,48 @@ const CalendarBooking = () => {
             Schedule Your Free Consultation
           </h2>
           <p className="text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-            Ready to streamline your finances? Choose the meeting type that works best for you 
+            Ready to streamline your finances? Book your online consultation 
             and let's discuss how we can help your business grow.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {meetingTypes.map((type, index) => (
-            <Card key={index} className="p-6 shadow-soft border border-border/50 hover:shadow-medium transition-shadow">
-              <div className="text-center mb-6">
-                <div className="w-12 h-12 bg-hero-gradient rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <type.icon className="w-6 h-6 text-primary-foreground" />
-                </div>
-                <h3 className="text-lg font-bold mb-2 text-foreground">{type.title}</h3>
-                <div className="flex items-center justify-center space-x-2 text-text-light mb-3">
-                  <Clock className="w-4 h-4" />
-                  <span className="text-sm">{type.duration}</span>
-                </div>
-                <p className="text-text-light text-sm leading-relaxed">{type.description}</p>
+        <div className="max-w-md mx-auto mb-12">
+          <Card className="p-6 shadow-soft border border-border/50 hover:shadow-medium transition-shadow">
+            <div className="text-center mb-6">
+              <div className="w-12 h-12 bg-hero-gradient rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Video className="w-6 h-6 text-primary-foreground" />
               </div>
-              
-              <ul className="space-y-2 mb-6">
-                {type.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="text-sm text-foreground flex items-center space-x-2">
-                    <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              
-              <Button className="w-full" variant="outline">
-                Book {type.title}
-              </Button>
-            </Card>
-          ))}
+              <h3 className="text-lg font-bold mb-2 text-foreground">Online Consultation</h3>
+              <div className="flex items-center justify-center space-x-2 text-text-light mb-3">
+                <Clock className="w-4 h-4" />
+                <span className="text-sm">30 minutes</span>
+              </div>
+              <p className="text-text-light text-sm leading-relaxed">Perfect for initial discussions and software demos</p>
+            </div>
+            
+            <ul className="space-y-2 mb-6">
+              <li className="text-sm text-foreground flex items-center space-x-2">
+                <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                <span>Software walkthrough</span>
+              </li>
+              <li className="text-sm text-foreground flex items-center space-x-2">
+                <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                <span>Service overview</span>
+              </li>
+              <li className="text-sm text-foreground flex items-center space-x-2">
+                <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                <span>Custom quote</span>
+              </li>
+            </ul>
+            
+            <Button 
+              className="w-full" 
+              variant="outline" 
+              onClick={handleBookConsultation}
+            >
+              Book Online Consultation
+            </Button>
+          </Card>
         </div>
 
         <div className="max-w-4xl mx-auto">
@@ -111,11 +99,15 @@ const CalendarBooking = () => {
                   can help yours thrive.
                 </p>
                 <div className="space-y-3">
-                  <Button className="w-full" size="lg">
+                  <Button 
+                    className="w-full" 
+                    size="lg"
+                    onClick={handleBookConsultation}
+                  >
                     Schedule Free Consultation
                   </Button>
                   <div className="text-center text-sm text-text-light">
-                    Or call us directly at <strong className="text-foreground">(555) 123-4567</strong>
+                    Or call us directly at <strong className="text-foreground">+44 7419 359051</strong>
                   </div>
                 </div>
               </div>
