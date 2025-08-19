@@ -89,7 +89,7 @@ const Services = () => {
                 <TrendingUp className="w-8 h-8 text-accent" />
                 <div className="text-primary-foreground">
                   <div className="font-semibold">Proven Results</div>
-                  <div className="text-sm text-primary-foreground/80">15+ years of success</div>
+                  <div className="text-sm text-primary-foreground/80">40+ years of success</div>
                 </div>
               </div>
             </div>
