@@ -37,7 +37,6 @@ const Footer = () => {
               <li><a href="#about" className="hover:text-background transition-colors">About Us</a></li>
               <li><a href="#software" className="hover:text-background transition-colors">Our Software</a></li>
               <li><a href="#contact" className="hover:text-background transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
           
@@ -59,10 +58,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-background/60 text-sm">
-              © 2024 Max Davies Bookkeeping. All rights reserved.
-            </p>
-            <p className="text-background/60 text-sm mt-4 md:mt-0">
-              Proudly serving businesses for over 15 years
+              © 2024 Max Davies Bookkeeping
             </p>
           </div>
         </div>
