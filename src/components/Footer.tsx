@@ -7,13 +7,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">FB</span>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">FamilyBooks Pro</h3>
-                <p className="text-xs text-background/70">Professional Bookkeeping</p>
-              </div>
+            <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-sm">MD</span>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold">Max Davies Bookkeeping</h3>
+              <p className="text-xs text-background/70">Professional Bookkeeping</p>
+            </div>
             </div>
             <p className="text-background/80 text-sm leading-relaxed mb-4">
               Three generations of financial expertise, helping businesses thrive 
@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-background/60 text-sm">
-              © 2024 FamilyBooks Pro. All rights reserved.
+              © 2024 Max Davies Bookkeeping. All rights reserved.
             </p>
             <p className="text-background/60 text-sm mt-4 md:mt-0">
               Proudly serving businesses for over 15 years

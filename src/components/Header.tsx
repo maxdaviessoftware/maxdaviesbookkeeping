@@ -8,10 +8,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">FB</span>
+              <span className="text-primary-foreground font-bold text-sm">MD</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">FamilyBooks Pro</h1>
+              <h1 className="text-xl font-bold text-foreground">Max Davies Bookkeeping</h1>
               <p className="text-xs text-text-light">Professional Bookkeeping Services</p>
             </div>
           </div>
