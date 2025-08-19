@@ -50,7 +50,7 @@ const Hero = () => {
               size="lg" 
               variant="accent" 
               className="text-lg px-8 py-4"
-              onClick={() => window.open('https://calendly.com/maxdavies236/30min', '_blank')}
+              onClick={() => window.open('https://calendly.com/maxdavies236/bookkeeping-software-meeting-with-max-davies-clone', '_blank')}
             >
               Schedule Free Consultation
               <ArrowRight className="ml-2 w-5 h-5" />

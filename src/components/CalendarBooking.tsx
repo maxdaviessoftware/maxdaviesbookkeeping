@@ -4,7 +4,7 @@ import { Calendar, Clock, Video } from "lucide-react";
 
 const CalendarBooking = () => {
   const handleBookConsultation = () => {
-    window.open('https://calendly.com/maxdavies236/30min', '_blank');
+    window.open('https://calendly.com/maxdavies236/bookkeeping-software-meeting-with-max-davies-clone', '_blank');
   };
 
   return (

@@ -98,7 +98,7 @@ const Services = () => {
               variant="accent" 
               size="lg" 
               className="text-lg px-8 py-4"
-              onClick={() => window.open('https://calendly.com/maxdavies236/30min', '_blank')}
+              onClick={() => window.open('https://calendly.com/maxdavies236/bookkeeping-software-meeting-with-max-davies-clone', '_blank')}
             >
               Get Started Today
             </Button>
