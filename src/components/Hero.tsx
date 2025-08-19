@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Users, Zap } from "lucide-react";
 
@@ -31,6 +32,7 @@ const Hero = () => {
           
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             Professional Bookkeeping
+            <br />
             <span className="text-accent-foreground">with a Personal Touch</span>
           </h1>
           
