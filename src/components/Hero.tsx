@@ -4,7 +4,7 @@ import { ArrowRight, Shield, Users, Zap } from "lucide-react";
 const Hero = () => {
   return (
     <section className="text-primary-foreground py-20 lg:py-32 relative overflow-hidden" style={{
-      backgroundImage: `url('/lovable-uploads/b6177435-b712-4668-a5b8-e3cd22f4ba96.png')`,
+      backgroundImage: `url('/lovable-uploads/b2511658-1bc3-402d-927f-d8bdad58b525.png')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
