@@ -10,7 +10,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/dac11671-764f-4512-a8d8-ae369ae3cbfb.png" 
               alt="Max Davies" 
-              className="w-8 h-8 rounded-lg object-cover"
+              className="w-12 h-12 rounded-lg object-cover"
             />
             <div>
               <h1 className="text-xl font-bold text-foreground">Max Davies Bookkeeping</h1>
