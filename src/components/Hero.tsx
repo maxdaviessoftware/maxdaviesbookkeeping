@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl lg:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Three generations of financial expertise, powered by our proprietary software. 
+            Financial expertise, powered by our proprietary software. 
             We help businesses streamline their finances with precision and care.
           </p>
           
@@ -67,8 +67,8 @@ const Hero = () => {
               <div className="text-primary-foreground/80">Happy Clients</div>
             </div>
             <div>
-              <div className="text-3xl font-bold mb-2">40</div>
-              <div className="text-primary-foreground/80">Years Experience</div>
+              <div className="text-3xl font-bold mb-2">Expert</div>
+              <div className="text-primary-foreground/80">Service</div>
             </div>
           </div>
         </div>

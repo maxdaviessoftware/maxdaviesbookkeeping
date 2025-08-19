@@ -12,7 +12,7 @@ const SoftwareShowcase = () => {
             Our Proprietary Bookkeeping Software
           </h2>
           <p className="text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-            Built from years of experience, our custom software provides real-time insights, 
+            Built with expertise and precision, our custom software provides real-time insights, 
             automated workflows, and comprehensive reporting that puts you in control.
           </p>
         </div>

@@ -12,7 +12,7 @@ const About = () => {
               About Us
             </h2>
             <p className="text-lg mb-6 text-text-light leading-relaxed">
-              We're a family-run bookkeeping business with over 40 years of experience helping individuals and companies keep their finances organised, accurate, and stress-free. From the very beginning, our focus has been on building long-term relationships based on trust, reliability, and personal service.
+              We're a family-run bookkeeping business with extensive experience helping individuals and companies keep their finances organised, accurate, and stress-free. From the very beginning, our focus has been on building long-term relationships based on trust, reliability, and personal service.
             </p>
             <p className="text-lg mb-6 text-text-light leading-relaxed">
               Unlike many bookkeeping providers, we don't rely on costly licensed software such as Xero or QuickBooks. Instead, we design and develop our own bookkeeping software in-house. This means our system is flexible, tailored, and built around the unique needs of each client—whether you're a sole trader, a growing business, or a larger company.
@@ -37,7 +37,7 @@ const About = () => {
               </Card>
               <Card className="p-6 text-center shadow-soft border border-border/50">
                 <Clock className="w-8 h-8 text-primary mx-auto mb-3" />
-                <h3 className="font-semibold mb-2 text-foreground">40 Years Experience</h3>
+                <h3 className="font-semibold mb-2 text-foreground">Proven Experience</h3>
                 <p className="text-sm text-text-light">Proven expertise you can rely on</p>
               </Card>
             </div>
