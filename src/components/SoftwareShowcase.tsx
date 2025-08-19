@@ -54,8 +54,8 @@ const SoftwareShowcase = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-medium">
               <img 
-                src={softwareDashboard} 
-                alt="FamilyBooks Pro software dashboard" 
+                src="/lovable-uploads/95e6e58e-ae0e-47f3-858d-50ee14054d7e.png" 
+                alt="Max Davies Bookkeeping software dashboard" 
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-black/20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity cursor-pointer">
