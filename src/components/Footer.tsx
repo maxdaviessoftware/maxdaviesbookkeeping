@@ -46,11 +46,11 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-background/80">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-background" />
-                <span>+44 7419 359051</span>
+                <a href="tel:+447419359051" className="hover:text-background transition-colors">+44 7419 359051</a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-background" />
-                <span>maxdaviesbookkeeping@gmail.com</span>
+                <a href="mailto:maxdaviesbookkeeping@gmail.com?subject=Max Davies Bookkeeping" className="hover:text-background transition-colors">maxdaviesbookkeeping@gmail.com</a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-background" />
