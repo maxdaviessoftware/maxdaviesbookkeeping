@@ -3,8 +3,13 @@ import { ArrowRight, Shield, Users, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="bg-hero-gradient text-primary-foreground py-20 lg:py-32 relative overflow-hidden">
-      <div className="absolute inset-0 bg-black/10"></div>
+    <section className="text-primary-foreground py-20 lg:py-32 relative overflow-hidden" style={{
+      backgroundImage: `url('/lovable-uploads/b6177435-b712-4668-a5b8-e3cd22f4ba96.png')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
+      <div className="absolute inset-0 bg-black/40"></div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-6">
@@ -25,7 +30,8 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-            Professional Bookkeeping with a 
+            Professional Bookkeeping
+            <span className="block">with a</span>
             <span className="block text-accent-foreground">Personal Touch</span>
           </h1>
           
