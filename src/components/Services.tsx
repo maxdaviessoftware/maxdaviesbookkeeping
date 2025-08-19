@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Calculator, FileText, TrendingUp, Shield, Clock } from "lucide-react";
+import { CheckCircle, Calculator, TrendingUp, Shield, Clock, RefreshCw } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -11,16 +11,16 @@ const Services = () => {
       features: ["Bank reconciliation", "Expense tracking", "Invoice management", "Financial statements"]
     },
     {
-      icon: FileText,
-      title: "Tax Preparation",
-      description: "Year-round tax planning and preparation to maximize deductions and minimize liability.",
-      features: ["Tax planning", "Document organization", "Quarterly filings", "Audit support"]
-    },
-    {
       icon: TrendingUp,
       title: "Financial Analysis",
       description: "Deep insights into your business performance with actionable recommendations.",
       features: ["Cash flow analysis", "Profit optimization", "Budget planning", "Growth strategies"]
+    },
+    {
+      icon: RefreshCw,
+      title: "Sync with other software",
+      description: "Max Davies Software provides other software to integrate with Bookkeeping functions.",
+      features: ["Sales Tracking", "Timesheets", "Commission calculations", "Forecasting"]
     }
   ];
 
