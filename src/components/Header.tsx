@@ -31,7 +31,7 @@ const Header = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>hello@familybooks.com</span>
+                <span>maxdaviesbookkeeping@gmail.com</span>
               </div>
             </div>
             <Button variant="hero">Book Meeting</Button>
