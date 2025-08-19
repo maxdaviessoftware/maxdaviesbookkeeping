@@ -69,20 +69,17 @@ const SoftwareShowcase = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <Card className="p-6 text-center shadow-soft">
-            <div className="text-3xl font-bold text-primary mb-2">2min</div>
             <div className="text-sm text-text-light">Monthly report generation</div>
           </Card>
           <Card className="p-6 text-center shadow-soft">
-            <div className="text-3xl font-bold text-accent mb-2">95%</div>
-            <div className="text-sm text-text-light">Time savings on data entry</div>
+            <div className="text-sm text-text-light">Transaction / Category Search Functionality</div>
           </Card>
           <Card className="p-6 text-center shadow-soft">
             <div className="text-3xl font-bold text-primary mb-2">24/7</div>
             <div className="text-sm text-text-light">Cloud access anywhere</div>
           </Card>
           <Card className="p-6 text-center shadow-soft">
-            <div className="text-3xl font-bold text-accent mb-2">100%</div>
-            <div className="text-sm text-text-light">Data security guaranteed</div>
+            <div className="text-sm text-text-light">Google Security</div>
           </Card>
         </div>
       </div>
