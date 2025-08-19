@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -51,14 +51,6 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-background" />
                 <a href="mailto:maxdaviesbookkeeping@gmail.com?subject=Max Davies Bookkeeping" className="hover:text-background transition-colors">maxdaviesbookkeeping@gmail.com</a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-4 h-4 text-background" />
-                <span>123 Business Ave, Suite 100<br />Your City, ST 12345</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Clock className="w-4 h-4 text-background" />
-                <span>Mon-Fri: 8AM-6PM<br />Sat: 9AM-2PM</span>
               </div>
             </div>
           </div>
