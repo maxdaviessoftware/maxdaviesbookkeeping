@@ -31,8 +31,7 @@ const Hero = () => {
           
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             Professional Bookkeeping
-            <span className="block">with a</span>
-            <span className="block text-accent-foreground">Personal Touch</span>
+            <span className="block text-accent-foreground">with a Personal Touch</span>
           </h1>
           
           <p className="text-xl lg:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
