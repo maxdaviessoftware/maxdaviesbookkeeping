@@ -51,10 +51,6 @@ const About = () => {
                 className="w-full h-auto"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-medium">
-              <div className="text-2xl font-bold">3rd</div>
-              <div className="text-sm">Generation</div>
-            </div>
           </div>
         </div>
       </div>
