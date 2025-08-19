@@ -40,6 +40,12 @@ const Hero = () => {
             We help businesses streamline their finances with precision and care.
           </p>
           
+          <div className="mb-8">
+            <div className="inline-block bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-8 py-3">
+              <span className="text-2xl font-bold text-accent-foreground">Monthly prices from £45</span>
+            </div>
+          </div>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg" 
