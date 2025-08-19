@@ -39,7 +39,7 @@ All colors MUST be HSL.
     --ring: 215 80% 45%;
 
     /* Custom design tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(215 80% 45%), hsl(155 60% 50%));
+    --hero-gradient: linear-gradient(135deg, hsl(165 60% 45%), hsl(155 65% 40%));
     --section-bg: 210 30% 98%;
     --text-light: 225 15% 60%;
     --shadow-soft: 0 4px 20px -4px hsl(215 80% 45% / 0.15);
