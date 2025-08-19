@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             </div>
             <p className="text-background/80 text-sm leading-relaxed mb-4">
-              Three generations of financial expertise, helping businesses thrive 
+              Financial expertise, helping businesses thrive 
               with personalized bookkeeping services and proprietary software.
             </p>
           </div>
