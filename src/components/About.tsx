@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Award, Clock } from "lucide-react";
-import familyTeamImage from "@/assets/family-team.jpg";
+
 
 const About = () => {
   return (
@@ -46,8 +46,8 @@ const About = () => {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-medium">
               <img 
-                src={familyTeamImage} 
-                alt="Our family team working together" 
+                src="/lovable-uploads/81317a20-dbb8-49f9-ac24-ed80fe050097.png" 
+                alt="Our team collaborating on bookkeeping solutions" 
                 className="w-full h-auto"
               />
             </div>
