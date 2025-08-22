@@ -13,7 +13,7 @@ const Header = () => {
               className="w-10 h-10 md:w-12 md:h-12 rounded-lg object-cover flex-shrink-0"
             />
             <div className="min-w-0 flex-1">
-              <h1 className="text-lg md:text-xl font-bold text-foreground truncate">Max Davies Bookkeeping</h1>
+              <h1 className="text-sm sm:text-lg md:text-xl font-bold text-foreground leading-tight">Max Davies Bookkeeping</h1>
               <p className="text-xs text-text-light hidden sm:block">Professional Bookkeeping Services</p>
             </div>
           </div>
