@@ -37,7 +37,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
           {services.map((service, index) => (
             <Card key={index} className="p-8 shadow-medium border border-border/50 hover:shadow-lg transition-shadow">
               <div className="text-center mb-6">
@@ -70,7 +70,7 @@ const Services = () => {
               your passion, and your legacy. That's why we treat every client like family.
             </p>
             
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
               <div className="flex flex-col items-center space-y-3">
                 <Shield className="w-8 h-8 text-accent" />
                 <div className="text-primary-foreground">

@@ -24,7 +24,7 @@ const About = () => {
               At our core, we believe bookkeeping should be clear, efficient, and tailored to you. That's why we combine professional expertise, custom-built tools, and a friendly approach to deliver a service that works for your business—not the other way around.
             </p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6">
               <Card className="p-6 text-center shadow-soft border border-border/50">
                 <Heart className="w-8 h-8 text-primary mx-auto mb-3" />
                 <h3 className="font-semibold mb-2 text-foreground">Family-Run Business</h3>
