@@ -7,14 +7,14 @@ const Services = () => {
     {
       icon: Calculator,
       title: "Monthly Bookkeeping",
-      description: "Complete monthly financial records with detailed categorization and reconciliation.",
+      description: "Complete monthly financial records with detailed categorisation and reconciliation.",
       features: ["Bank reconciliation", "Expense tracking", "Invoice management", "Financial statements"]
     },
     {
       icon: TrendingUp,
       title: "Financial Analysis",
       description: "Deep insights into your business performance with actionable recommendations.",
-      features: ["Cash flow analysis", "Profit optimization", "Budget planning", "Growth strategies"]
+      features: ["Cash flow analysis", "Profit optimisation", "Budget planning", "Growth strategies"]
     },
     {
       icon: RefreshCw,

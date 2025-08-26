@@ -34,7 +34,7 @@ const SoftwareShowcase = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <PieChart className="w-5 h-5 text-accent" />
-                <span className="text-foreground">Automated expense categorization</span>
+                <span className="text-foreground">Automated expense categorisation</span>
               </div>
               <div className="flex items-center space-x-3">
                 <TrendingUp className="w-5 h-5 text-primary" />
