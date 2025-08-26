@@ -9,7 +9,7 @@ const VideoSection = () => {
             See Our Software in Action
           </h2>
           <p className="text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-            Watch our comprehensive software demonstration to see how we can streamline your bookkeeping processes.
+            Watch our overview video to get a feel for our software and what we can do for you.
           </p>
         </div>
 
