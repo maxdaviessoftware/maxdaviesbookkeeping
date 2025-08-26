@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, Video } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 const CalendarBooking = () => {
   const handleBookConsultation = () => {
@@ -12,51 +13,59 @@ const CalendarBooking = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-            Schedule Your Free Consultation
+            Get in Touch
           </h2>
           <p className="text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-            Ready to streamline your finances? Book your online consultation 
-            and let's discuss how we can help your business grow.
+            Ready to streamline your finances? Choose how you'd like to connect with us.
           </p>
         </div>
 
-        <div className="max-w-md mx-auto mb-12">
-          <Card className="p-6 shadow-soft border border-border/50 hover:shadow-medium transition-shadow">
-            <div className="text-center mb-6">
-              <div className="w-12 h-12 bg-hero-gradient rounded-xl flex items-center justify-center mx-auto mb-4">
-                <Video className="w-6 h-6 text-primary-foreground" />
+        <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto mb-16">
+          <div>
+            <h3 className="text-2xl font-bold mb-6 text-foreground text-center">Schedule a Consultation</h3>
+
+            <Card className="p-6 shadow-soft border border-border/50 hover:shadow-medium transition-shadow h-full">
+              <div className="text-center mb-6">
+                <div className="w-12 h-12 bg-hero-gradient rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Video className="w-6 h-6 text-primary-foreground" />
+                </div>
+                <h4 className="text-lg font-bold mb-2 text-foreground">Online Consultation</h4>
+                <div className="flex items-center justify-center space-x-2 text-text-light mb-3">
+                  <Clock className="w-4 h-4" />
+                  <span className="text-sm">30 minutes</span>
+                </div>
+                <p className="text-text-light text-sm leading-relaxed">Perfect for initial discussions and software demos</p>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-foreground">Online Consultation</h3>
-              <div className="flex items-center justify-center space-x-2 text-text-light mb-3">
-                <Clock className="w-4 h-4" />
-                <span className="text-sm">30 minutes</span>
-              </div>
-              <p className="text-text-light text-sm leading-relaxed">Perfect for initial discussions and software demos</p>
-            </div>
-            
-            <ul className="space-y-2 mb-6">
-              <li className="text-sm text-foreground flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
-                <span>Software walkthrough</span>
-              </li>
-              <li className="text-sm text-foreground flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
-                <span>Service overview</span>
-              </li>
-              <li className="text-sm text-foreground flex items-center space-x-2">
-                <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
-                <span>Custom quote</span>
-              </li>
-            </ul>
-            
-            <Button 
-              className="w-full" 
-              variant="outline" 
-              onClick={handleBookConsultation}
-            >
-              Book Online Consultation
-            </Button>
-          </Card>
+              
+              <ul className="space-y-2 mb-6">
+                <li className="text-sm text-foreground flex items-center space-x-2">
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                  <span>Software walkthrough</span>
+                </li>
+                <li className="text-sm text-foreground flex items-center space-x-2">
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                  <span>Service overview</span>
+                </li>
+                <li className="text-sm text-foreground flex items-center space-x-2">
+                  <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                  <span>Custom quote</span>
+                </li>
+              </ul>
+              
+              <Button 
+                className="w-full" 
+                variant="outline" 
+                onClick={handleBookConsultation}
+              >
+                Book Online Consultation
+              </Button>
+            </Card>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold mb-6 text-foreground text-center">Send Us a Message</h3>
+            <ContactForm />
+          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">
