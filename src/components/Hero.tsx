@@ -57,8 +57,13 @@ const Hero = () => {
               Schedule Free Consultation
               <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
             </Button>
-            <Button size="lg" variant="outline" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 w-full sm:w-auto">
-              See Our Software Demo
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 w-full sm:w-auto"
+              onClick={() => document.getElementById('video')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              See Our Software Video
             </Button>
           </div>
           
