@@ -52,7 +52,12 @@ const SoftwareShowcase = () => {
           </div>
           
           <div className="order-1 lg:order-2 relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-medium">
+            <div 
+              className="relative rounded-2xl overflow-hidden shadow-medium cursor-pointer"
+              onClick={() => {
+                document.getElementById('video')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               <img 
                 src="/lovable-uploads/95e6e58e-ae0e-47f3-858d-50ee14054d7e.png" 
                 alt="Max Davies Bookkeeping software dashboard" 
