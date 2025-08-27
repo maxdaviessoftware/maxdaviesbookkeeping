@@ -34,10 +34,38 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-background/80">
-              <li><a href="#about" className="hover:text-background transition-colors">About Us</a></li>
-              <li><a href="#software" className="hover:text-background transition-colors">Our Software</a></li>
-              <li><a href="#services" className="hover:text-background transition-colors">Services</a></li>
-              <li><a href="#contact" className="hover:text-background transition-colors">Contact</a></li>
+              <li>
+                <button 
+                  onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-background transition-colors"
+                >
+                  About Us
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => document.getElementById('software')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-background transition-colors"
+                >
+                  Our Software
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-background transition-colors"
+                >
+                  Services
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-background transition-colors"
+                >
+                  Contact
+                </button>
+              </li>
             </ul>
           </div>
           
